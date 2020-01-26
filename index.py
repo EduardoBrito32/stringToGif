@@ -31,7 +31,7 @@ def imageToGif():
         frames.append(new_frame)
     
     # Save into a GIF file that loops forever
-    frames[0].save('png_to_gif.mp4', format='mp4',
+    frames[0].save('png_to_gif.gif', format='GIF',
                 append_images=frames[1:],
                 save_all=True,
                 duration=2000, loop=0)
